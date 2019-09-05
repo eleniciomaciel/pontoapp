@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Ponto Time</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!--===============================================================================================-->	
+        <link rel="icon" type="image/png" href="login_template/images/icons/favicon.ico"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/bootstrap/css/bootstrap.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/fonts/iconic/css/material-design-iconic-font.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/animate/animate.css">
+        <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/css-hamburgers/hamburgers.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/animsition/css/animsition.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/select2/select2.min.css">
+        <!--===============================================================================================-->	
+        <link rel="stylesheet" type="text/css" href="login_template/vendor/daterangepicker/daterangepicker.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="login_template/css/util.css">
+        <link rel="stylesheet" type="text/css" href="login_template/css/main.css">
+        <!--===============================================================================================-->
+
+    </head>
+    <body>
+
+        <div class="limiter">
+            <div class="container-login100" style="background-image: url('login_template/images/bg-01.jpg');">
+                <div class="wrap-login100">
+                    <form class="login100-form validate-form" id="formVerificaAcesso">
+                        <span class="login100-form-logo">
+                            <img src="login_template/images/logo.png">
+                        </span>
+
+                        <span class="login100-form-title p-b-34 p-t-27">
+                            Ponto Time
+                        </span>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Matrícula é obrigatória">
+                            <input class="input100" type="text" name="c8_username" id="c8_username" autocomplete="off" placeholder="Entre com a matrícula">
+                            <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Senha é obrigatória">
+                            <input class="input100" type="password" name="c8_password" id="c8_password" autocomplete="off" placeholder="Entre com a senha">
+                            <span class="focus-input100" data-placeholder="&#xf191;"></span>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-lg btn-primary btn-block"><span id="logText"></span></button>
+
+                        <div id="responseDiv" class="alert text-center" style="margin-top:20px; display:none;">
+                            <button type="button" class="close" id="clearMsg"><span aria-hidden="true">&times;</span></button>
+                            <span id="message"></span>
+                        </div>
+
+
+                        <div class="text-center p-t-90">
+                            <a class="txt1" href="#">
+                                Forgot Password?
+                            </a>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div id="dropDownSelect1"></div>
+
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/bootstrap/js/popper.js"></script>
+        <script src="login_template/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/daterangepicker/moment.min.js"></script>
+        <script src="login_template/vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+        <script src="login_template/js/main.js"></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <!--===============================================================================================-->
+        <script src="js/jquery.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="js/conexao_login.js"></script>
+         <!--===============================================================================================-->
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
